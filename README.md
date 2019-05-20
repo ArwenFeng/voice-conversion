@@ -11,9 +11,9 @@ The input is mel-scale spectrogram. The output is phoneme squence. I trained the
 ## Speech Sythesis Model
 This model is like an inverse process of phoneme sequence model. The input is phoneme squence and the output is spectrogram.
 
-First, I made a few test on an anonymous woman's voice in LJSpeech. These results sound ok.
+First, I made a few test on an anonymous woman's voice in LJSpeech. These results sound ok. Two examples can be found in test_files with the suffix 'ljs'.
 
-Then I obtained a corpus spoken by Tom Hiddleston. Since the size of the corpus is less than an hour, the results did not turn out to be good enough. But, I really like my work.
+Then I obtained a corpus spoken by Tom Hiddleston. Since the size of the corpus too small (<1h), the results did not turn out to be good enough. Two examples can be found in test_files with the suffix 'dousen'.
 
 ## Quick Start
 ### Installing dependencies
