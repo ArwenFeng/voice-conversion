@@ -55,5 +55,7 @@ The packages in requirements.txt may not be all necessary, I just freezed my wor
 2. **Change the parameters in eval2.py and run it**:
    
    **origin_file** is the origin wav file path you want to convert.
+   
    **target_file** is the targetwav file path you want to convert.
+   
    **checkpoint_path** is the path you may want to change to convert voice into ljspeech annoymous woman or Tom Hiddleston.
